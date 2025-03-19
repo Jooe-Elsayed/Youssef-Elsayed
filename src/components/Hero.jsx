@@ -43,7 +43,7 @@
                         <motion.h2
                         variants={childVariants}
                         className='pb-2 text-4xl tracking-tighter
-                        lg:text-7xl w-full'>Youssef Elsayed</motion.h2>
+                        lg:text-7xl'>Youssef Elsayed</motion.h2>
 
                         <motion.span
                         variants={childVariants}
@@ -58,16 +58,6 @@
                             {HERO_CONTENT}
                         </motion.p>
 
-                        <motion.a 
-                        variants={childVariants}
-                        href="/public/Youssef-Elsayed.pdf" 
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        download={true}
-                        className='bg-white font-bold rounded-full p-4 text-sm
-                        text-stone-800 mb-10'>
-                            Download Resume
-                        </motion.a>
 
                     </motion.div>
                 </div>
