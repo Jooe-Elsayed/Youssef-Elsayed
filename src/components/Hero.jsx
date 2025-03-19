@@ -42,13 +42,13 @@
                     mt-10'>
                         <motion.h2
                         variants={childVariants}
-                        className='pb-2 text-5xl tracking-tighter
+                        className='pb-2 text-4xl tracking-tighter
                         lg:text-7xl w-full'>Youssef Elsayed</motion.h2>
 
                         <motion.span
                         variants={childVariants}
                         className='bg-gradient-to-r from-stone-300
-                        to-stone-600 bg-clip-text text-4xl tracking-tighter
+                        to-stone-600 bg-clip-text text-3xl tracking-tighter
                         text-transparent'>Frontend Developer</motion.span>
 
                         <motion.p
