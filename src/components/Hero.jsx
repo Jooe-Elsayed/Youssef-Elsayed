@@ -43,7 +43,7 @@
                         <motion.h2
                         variants={childVariants}
                         className='pb-2 text-5xl tracking-tighter
-                        lg:text-7xl'>Youssef Elsayed</motion.h2>
+                        lg:text-7xl w-full'>Youssef Elsayed</motion.h2>
 
                         <motion.span
                         variants={childVariants}
