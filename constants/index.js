@@ -78,7 +78,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Responsive Burger Website",
+    title: "Responsive Construction Website",
     image: project11,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
