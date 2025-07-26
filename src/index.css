@@ -6,3 +6,18 @@
   background: hsl(0, 0%, 0%);
   color: #fff;
 }
+
+.cv-btn{
+  background-color: #2d2d2d;
+  padding: 10px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.cv-btn:hover{
+  font-weight: bold;
+  color: #2d2d2d;
+  background-color: #ffff;
+}

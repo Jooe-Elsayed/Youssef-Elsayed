@@ -58,7 +58,9 @@
                             {HERO_CONTENT}
                         </motion.p>
 
-
+                        <motion.button
+                        variants={childVariants}
+                        class="cv-btn"><a href="/public/Youssef-Elsayed.pdf" download="">Download CV</a></motion.button>
                     </motion.div>
                 </div>
             </div>

@@ -43,8 +43,6 @@
                 >
                 <FaWhatsapp/>
                 </a>
-
-
             </div>
         </nav>
     )

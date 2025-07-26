@@ -1,19 +1,32 @@
-import project12 from "../src/assets/projects/Bakery-img.jpg";
-import project11 from "../src/assets/projects/Cons.jpg";
-import project10 from "../src/assets/projects/Burger.jpg";
+import project12 from "../src/assets/projects/DeepSeek.jpg";
+import project11 from "../src/assets/projects/SASS.jpg";
+import project10 from "../src/assets/projects/plab-b.jpg";
 import project4 from "../src/assets/projects/lms.jpg";
 import project2 from "../src/assets/projects/ecommerce.jpg";
 import project1 from "../src/assets/projects/real-state.jpg";
 import project5 from "../src/assets/projects/Spotify.jpg";
 import project3 from "../src/assets/projects/booking.jpg";
-import project6 from "../src/assets/projects/to-do-list.jpg";
-import project7 from "../src/assets/projects/news-app.jpg";
-import project8 from "../src/assets/projects/weather.jpg";
-import project9 from "../src/assets/projects/Sign-up.jpg";
+import project13 from '../src/assets/projects/gt-1.jpg';
+import project14 from '../src/assets/projects/lead.jpg';
+import project15 from '../src/assets/projects/POC.jpg';
+import project16 from '../src/assets/projects/MYS.jpg';
+import project17 from '../src/assets/projects/Leadership.jpg';
+import project18 from '../src/assets/projects/PS.jpg';
+import project19 from '../src/assets/projects/enter.jpg';
+import project20 from '../src/assets/projects/ahmed-adel.jpg';
+import project21 from '../src/assets/projects/Zezo.jpg';
 
 export const HERO_CONTENT = `I am a Frontend Developer specializing in building web interfaces using HTML, CSS, and JavaScript. I have strong experience in ReactJS, Next.js, and Redux, and I am proficient in TypeScript for writing clean and scalable code. I use Bootstrap, Tailwind CSS, and SASS to create responsive and modern designs, and I rely on Git/GitHub for efficient code management and workflow optimization.`;
 
 export const EXPERIENCES = [
+    {
+    year: "2025 - Present",
+    role: "Frontend Developer",
+    company: "Freelancing ",
+    description: `Over the past period, I’ve worked on a wide range of diverse projects with clients from different countries around the world, which has significantly helped me enhance my skills in designing and developing user interfaces, with a particular focus on creating professional personal and portfolio websites that reflect the client's identity and help them stand out in the job market. I handled complete designs from analyzing client needs to designing UX/UI interfaces and finally developing the websites using the latest web technologies, with a strong emphasis on user experience and performance.
+`,
+        technologies: ["React.js","TailwindCSS","Bootstrap", "CSS", "JS"],
+      },
   {
     year: "2024 - Present",
     role: "Frontend Developer",
@@ -22,11 +35,56 @@ export const EXPERIENCES = [
     improve user experience and overall performance. Following that, I took full 
     responsibility for building a completely new website from scratch using HTML, CSS, 
     JavaScript, and Bootstrap.`,
-        technologies: ["React.js","Bootstrap","Html", "CSS", "JS"],
+        technologies: ["React.js","Bootstrap", "CSS", "JS"],
       },
 ];
 
 export const PROJECTS = [
+    {
+    title: "GT1 Website",
+    image: project13,
+    technologies: ["Html","CSS","JS"],
+  },
+    {
+    title: "Plan B Company",
+    image: project10,
+    technologies: ["Html","CSS","JS"],
+  },
+    {
+    title: "Lead Organization",
+    image: project14,
+    technologies: ["ReactJs", "Tailwind Css"],
+  },
+    {
+    title: "Power Of Change",
+    image: project15,
+    technologies: ["Html","CSS","JS"],
+  },
+      {
+    title: "Make Yourself",
+    image: project16,
+    technologies: ["Html","CSS","JS"],
+  },
+      {
+    title: "Leadership",
+    image: project17,
+    technologies: ["Html","CSS","JS"],
+  },
+      {
+    title: "Public Speaking",
+    image: project18,
+    technologies: ["Html","CSS","JS"],
+  },
+    {
+    title: "Entrepreneurship",
+    image: project19,
+    technologies: ["Html","CSS","JS"],
+  },
+    {
+    title: "Ahmed Adel Personal Website",
+    image: project20,
+    technologies: ["Html","CSS","JS"],
+  },
   {
     title: "Real-Estate Website",
     image: project1,
@@ -48,46 +106,25 @@ export const PROJECTS = [
     technologies: ["ReactJs", "Tailwind CSS"],
   },
   {
+    title: "LMS Website",
+    image: project4,
+    technologies: ["ReactJs", "Tailwind CSS"],
+  },
+    {
+    title: "SASS Landing Page",
+    image: project11,
+    technologies: ["ReactJs", "Tailwind CSS"],
+  },
+  {
+    title: "DeepSeek Clone",
+    image: project12,
+    technologies: ["NextJs", "Tailwind CSS"],
+  },
+  {
     title: "Spotify Clone",
     image: project5,
     technologies: ["ReactJs", "Tailwind CSS"],
   },
-  {
-    title: "To Do List App",
-    image: project6,
-    technologies: ["ReactJs", "Tailwind CSS"],
-  },
-  {
-    title: "News App",
-    image: project7,
-    technologies: ["ReactJs", "Bootstrap"],
-  },
-  {
-    title: "Weather App",
-    image: project8,
-    technologies: ["ReactJS"],
-  },
-  {
-    title: "Sign Up Form",
-    image: project9,
-    technologies: ["ReactJs"],
-  },
-  {
-    title: "Responsive Burger Website",
-    image: project10,
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Responsive Construction Website",
-    image: project11,
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Responsive Bakery Website",
-    image: project12,
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  
 ];
 
 export const CONTACT = {

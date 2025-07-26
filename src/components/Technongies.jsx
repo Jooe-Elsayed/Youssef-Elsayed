@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiJavascript1 } from 'react-icons/di'
+import { DiJavascript1, DiNodejs, DiNodejsSmall } from 'react-icons/di'
 import { RiReactjsLine, RiTailwindCssFill} from 'react-icons/ri'
 import { SiTypescript } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
@@ -71,7 +71,6 @@ const iconVariants = (duration) => ({
                 className='p-3'>
                     <DiJavascript1 className='text-6xl bg-yellow-300 text-black rounded'/>
                 </motion.div>
-
             </motion.div>
 
         </div>
