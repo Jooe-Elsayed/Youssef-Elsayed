@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2'> 
-                    <motion.div 
+                    <motion.button 
                     initial="hidden"
                     animate="visible"
                     variants={containerVariants}
@@ -53,15 +53,16 @@
 
                         <motion.p
                         variants={childVariants}
-                        className='my-2 max-w-lg py-6 text-xl leading-relaxed
+                        className='my-2 max-w-lg py-6 text-xl leading-relaxed text-left
                         tracking-tighter'>
                             {HERO_CONTENT}
                         </motion.p>
 
-                        <motion.button
-                        variants={childVariants}
-                        class="cv-btn"><a href="/public/Youssef-Elsayed.pdf" download="">Download CV</a></motion.button>
-                    </motion.div>
+                    <motion.button variants={childVariants} className="cv-btn">
+                    <a href="/Youssef-Elsayed.pdf" download>Download CV</a>
+                    </motion.button>
+
+                    </motion.button>
                 </div>
             </div>
         </div>
