@@ -14,7 +14,6 @@ import project17 from '../src/assets/projects/Leadership.jpg';
 import project18 from '../src/assets/projects/PS.jpg';
 import project19 from '../src/assets/projects/enter.jpg';
 import project20 from '../src/assets/projects/ahmed-adel.jpg';
-import project21 from '../src/assets/projects/Zezo.jpg';
 
 export const HERO_CONTENT = `I am a Frontend Developer specializing in building web interfaces using HTML, CSS, and JavaScript. I have strong experience in ReactJS, Next.js, and Redux, and I am proficient in TypeScript for writing clean and scalable code. I use Bootstrap, Tailwind CSS, and SASS to create responsive and modern designs, and I rely on Git/GitHub for efficient code management and workflow optimization.`;
 
@@ -25,7 +24,7 @@ export const EXPERIENCES = [
     company: "Freelancing ",
     description: `Over the past period, I’ve worked on a wide range of diverse projects with clients from different countries around the world, which has significantly helped me enhance my skills in designing and developing user interfaces, with a particular focus on creating professional personal and portfolio websites that reflect the client's identity and help them stand out in the job market. I handled complete designs from analyzing client needs to designing UX/UI interfaces and finally developing the websites using the latest web technologies, with a strong emphasis on user experience and performance.
 `,
-        technologies: ["React.js","TailwindCSS","Bootstrap", "CSS", "JS"],
+        technologies: ["React.js","TailwindCSS","JS"],
       },
   {
     year: "2024 - Present",
@@ -53,7 +52,7 @@ export const PROJECTS = [
     {
     title: "Lead Organization",
     image: project14,
-    technologies: ["ReactJs", "Tailwind Css"],
+    technologies: ["Html","CSS","JS"],
   },
     {
     title: "Power Of Change",
