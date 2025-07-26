@@ -104,11 +104,6 @@ export const PROJECTS = [
     image: project4,
     technologies: ["ReactJs", "Tailwind CSS"],
   },
-  {
-    title: "LMS Website",
-    image: project4,
-    technologies: ["ReactJs", "Tailwind CSS"],
-  },
     {
     title: "SASS Landing Page",
     image: project11,
