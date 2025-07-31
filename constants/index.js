@@ -125,6 +125,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Maadi, Cairo",
-  phoneNo: "01094345363",
+  phoneNo: "+201094345363",
   email: "youssefelsayed.fd@gmail.com",
 };
