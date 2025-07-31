@@ -15,7 +15,9 @@ import project18 from '../src/assets/projects/PS.jpg';
 import project19 from '../src/assets/projects/enter.jpg';
 import project20 from '../src/assets/projects/ahmed-adel.jpg';
 
-export const HERO_CONTENT = `I am a Frontend Developer specializing in building web interfaces using HTML, CSS, and JavaScript. I have strong experience in ReactJS, Next.js, and Redux, and I am proficient in TypeScript for writing clean and scalable code. I use Bootstrap, Tailwind CSS, and SASS to create responsive and modern designs, and I rely on Git/GitHub for efficient code management and workflow optimization.`;
+
+export const HERO_CONTENT = `I'm a Frontend Developer with a passion for building modern, responsive web interfaces. I specialize in ReactJS, Next.js, Redux, and TypeScript to create clean and scalable applications. With Tailwind CSS and SASS, I bring UI designs to life with precision and performance. I rely on Git and GitHub for efficient code management and streamlined workflows.`;
+
 
 export const EXPERIENCES = [
     {
